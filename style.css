@@ -144,8 +144,63 @@ article {
   font-size: 14px;
 }
 
+.right-col .d-flex {
+  border-bottom: 1px solid #d9d9d9; 
+}
+
 .right-col .d-flex img {
   height: 63px;
   width: 63px;
   margin-right: 7px;
+}
+
+.right-col .d-flex p {
+  color: #555;
+  font-weight: 700;
+}
+
+.debate {
+  margin-bottom: 15px;
+  border-top: 3px solid #d9d9d9;
+  border-bottom: 3px solid #d9d9d9;
+}
+
+.debate p,
+.debate h3 {
+  margin: 0;
+}
+
+.debate1,
+.debate2 {
+  height: 108px;
+  margin: 0;
+  align-items: center;
+}
+
+.debate1 {
+  margin-bottom: 0.5px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.debate2 {
+  margin-top: 0.5px;
+  border-top: 1px solid #d9d9d9;
+}
+
+.vs {
+  top: 96px;
+  right: 50%;
+  z-index: 1;
+  width: 25px;
+  height: 25px;
+  padding-top: 2px;
+  color:  #d6d6d6;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.btm-section img {
+  object-fit: contain;
+  width: 170px;
 }
