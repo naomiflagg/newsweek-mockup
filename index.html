@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/63e040079e.js" crossorigin="anonymous"></script>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="full-container">
+      <header>
+        <div class="top-header d-flex p-2 justify-content-between align-items-center text-white font-weight-bolder">
+          <div class="p-2 d-none d-lg-block">
+            <p class="location m-0"><i class="fas fa-cloud-sun p-1"></i>62° Oakland, CA</p>
+            <p class="font-weight-light m-0">Wed, Nov 18, 2020</p>
+          </div>
+          <h1><a class="brand m-0" href="#">
+            <svg class="logo" version="1.1" width="396" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 396 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g><path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path></g></svg>
+          </a></h1>
+          <div class="p-2 d-flex align-self-end align-items-center">
+            <p class="m-0 p-2">Login</p>
+            <button type="button" class="p-2 btn btn-warning rounded-pill font-weight">SUBSCRIBE ></button>
+            <i class="p-2 d-lg-none fas fa-bars"></i>
+          </div>
+        </div>
+        <nav class="m-0 p-0 position-relative">
+          <div class="navbar navbar-expand-lg">
+            <ul class="top-nav collapse navbar-collapse justify-content-between list-unstyled">
+              <li class="nav-item"><a class="nav-link" href="#">U.S.</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">World</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Tech & Science</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Culture</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Newsgeek</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Health</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">The Debate</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Vantage</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Weather</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Search<i class="p-2 fas fa-search"></i></a></li>
+            </ul>
+          </div>
+          <div class="navbar navbar-expand-lg">
+            <ul class="btm-nav collapse navbar-collapse list-unstyled">
+              <li class="nav-item"><a class="nav-link text-dark" href="#">TRENDING</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">JOE BIDEN</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">DONALD TRUMP</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">2020 ELECTION</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">CORONAVIRUS</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">STIMULUS PACKAGE</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main class="container-fluid">
+        <div class="row">
+          <div class="left-col col-md-6 col-lg-3">
+            <section>
+              <h2>FEATURED STORIES</h2>
+              <article>
+                <div class="text-on-img position-relative">
+                  <img src="https://d.newsweek.com/en/full/1671790/biden.webp?w=397&h=265&q=90&f=90e3c71b1c6f034d694b58350c155591" alt="Joe Biden">
+                  <p class="position-absolute">POLITICS</p>
+                </div>
+                <div>
+                  <h3 class="lg-headline">Voters' Demands for Biden's First 100 Days: Tackle COVID, Boost the Economy</h3>
+                  <p>The Democrat is set to take office during a period of turmoil caused by the COVID-19 pandemic and its impact on the economy.</p>
+                </div>
+              </article>
+              <article class="sm-headline"><h3>Joe Biden Crosses 79 Million Votes, 10 Million More Than Any Other President in History</h3></article>
+              <article>
+                <div class="text-on-img position-relative">
+                  <img src="https://d.newsweek.com/en/full/1671456/brad-raffensperger.webp?w=397&h=265&q=90&f=452a65a1850fc009a1cc69663b75e8bd" alt="Brad Raffensperger">
+                  <p class="position-absolute">NEWS</p>
+                </div>
+                <div>
+                  <h3 class="lg-headline">Georgia Secretary of State Says GOP Attacks on Him Were 'Clear Retaliation'</h3>
+                  <p>"It is not the job of the secretary of state's office to deliver a win," Brad Raffensperger said.</p>
+                </div>
+              </article>
+              <article>
+                <div class="text-on-img position-relative">
+                  <img src="https://d.newsweek.com/en/full/1671703/iran-us-iraq-hassan-rouhani-baghdad-rocket.webp?w=397&h=265&q=90&f=1361509707a97e747e69ee4023e2e0fe" alt="Iran">
+                  <p class="position-absolute">WORLD</p>
+                </div>
+                <div>
+                  <h3 class="lg-headline">Iran's Rouhani Calls U.S. 'A Terrorist' After Rocket Attack on Iraq Embassy</h3>
+                  <p>Tehran is waiting to see what President-elect Joe Biden does, while Iranian-backed militias in Iraq are continuing attacks against American interests.</p>
+                </div>
+              </article>
+              <article>
+                <div class="text-on-img position-relative">
+                  <img src="https://d.newsweek.com/en/full/1671845/pfizer-coronavirus-vaccine.webp?w=397&h=265&q=90&f=ce998d4975623f00c451d6aca1fb5445" alt="Pfizer logo">
+                  <p class="position-absolute">HEALTH</p>
+                </div>
+                <div>
+                  <h3 class="lg-headline">Presidential Transition Issues Could Hold Up Vaccine Rollout: Biden Adviser</h3>
+                  <p>Rick Bright hailed the "remarkable effectiveness" of the vaccine as Pfizer said no serious side effects were reported in a large trial.</p>
+                </div>
+              </article>
+              <article>
+                <div class="text-on-img position-relative">
+                  <img src="https://d.newsweek.com/en/full/1671773/wisconsin-national-guard.jpg?w=397&h=265&q=90&f=c2401ddb05aa70b0ed37fdec90cfadfb" alt="Drive through COVID testing">
+                  <p class="position-absolute">POLITICS</p>
+                </div>
+                <div>
+                  <h3 class="lg-headline">Thanksgiving Opens New Front in War Over COVID Restrictions</h3>
+                  <p>Millions of Americans prepare to celebrate the national holiday next week with conflicting advice over whether to mark the day with traditional gatherings.</p>
+                </div>
+              </article>
+              <article class="sm-headline"><h3>Trump's Press Sec. Calls Thanksgiving COVID Guidelines 'Orwellian' as America Braces for Holiday Spread</h3></article>
+            </section>
+          </div>
+          <div class="mid-col col-md-6 col-lg-6">
+            <section>
+              <h2>TOP STORY</h2>
+              <article>
+                <div class="text-on-img position-relative">
+                	<img src="https://d.newsweek.com/en/full/1671834/store-shut.webp?w=591&h=364&f=91e11178e9057bc8794de82ed79f4f92" alt="Store closing sale">
+                	<p class="position-absolute">U.S.</p>
+                </div>
+                <div>
+                  <h3 class="lg-headline">2020 Stimulus Check Deadline for Missed CARES Act Payments Looms</h3>
+                  <p>Around 160 million direct payments have been made after the CARES Act was signed, though there are still eligible people yet to register for funds.</p>
+                </div>
+              </article>
+              <article class="d-flex">
+                <img src="https://d.newsweek.com/en/full/1671693/mcconnell.webp?w=95&h=95&f=3ce3bed8715fe851b93f2014325474e2" alt="Mitch McConnell" class="img-left">
+                <div>
+                  <h3 class="sm-headline">Mitch McConnell Blames Stimulus Delay on Nancy Pelosi, Chuck Schumer After Letter Urges Talks</h3>
+                  <p>The Senate majority leader highlighted Republicans' desire for a "targeted rescue package" amid the ongoing COVID-19 crisis.</p>
+                </div>
+              </article>
+            </section>
+            <div class="container-fluid">
+              <section>
+                <h2>MY TURN</h2> 
+                <div class="row">
+                  <article class="col">
+                    <img src="https://d.newsweek.com/en/full/1670967/plants-interior-design-indoor-garden.jpg?w=397&h=397&f=0feb7aad15d8a8b0d5bd00125b2acf05" alt="Plants in home">
+                    <h3 class="gray-headline">'I'm a Plant Stylist. Here Are 4 Tips to Make a More Peaceful Home'</h3>
+                  </article>
+                  <article class="col">
+                    <img src="https://d.newsweek.com/en/full/1669099/screen-time-children.jpg?w=397&h=397&f=fa524cf1e8e3c3e000b34bd9de607b60" alt="Child on video chat">
+                    <h3 class="gray-headline">'I Swore to Keep My Infant Away From Screens, But COVID Made That Hopeless'</h3>
+                  </article>
+                  <article class="col">
+                    <img src="https://d.newsweek.com/en/full/1669703/voting-kids-voting-election-presidential-election.jpg?w=397&h=397&f=d93122708ccd581d688cdfe0948de78e" alt="Kids election">
+                    <h3 class="gray-headline">'My 6-year-old Created a Kids Election That Predicted Biden Would Win'</h3>
+                  </article>
+                </div>
+              </section>
+              <section>
+                <h2>CULTURE & TRAVEL</h2>
+                <div class="row">
+                  <article class="col">
+                    <img src="https://d.newsweek.com/en/full/1670615/earth-night-color.webp?w=397&h=397&f=f79c3f32cf73ccbdc04d576b5ec222fb" alt="Lion">
+                    <h3 class="gray-headline">'Earth at Night in Color' Reveals the Nocturnal Lives of Animals</h3>
+                  </article>
+                  <article class="col">
+                    <img src="https://d.newsweek.com/en/full/1656744/reopening-giza-pyramids-egypt.webp?w=397&h=397&f=d4ccda70eb973e01a30a85425158812f" alt="Tourist on camel with mask">
+                    <h3 class="gray-headline">Striking Photos of the Tourism Industry During COVID-19</h3>
+                  </article>
+                  <article class="col">
+                    <img src="https://d.newsweek.com/en/full/1660785/50-photos-american-life-2020.webp?w=397&h=397&f=9bf625ceb2b288a2b77236d1bdcc3a93" alt="Random images">
+                    <h3 class="gray-headline">50 Photos of American Life in 2020</h3>
+                  </article>
+                </div>
+              </section>
+              <section>
+                <h2>MORE STORIES</h2>
+                <article class="d-flex">
+                  <img src="https://d.newsweek.com/en/full/1671690/chris-krebs.webp?w=95&h=95&f=f15b862d01c06254d3094ebd1d1dbd98" alt="Christopher Krebs" class="img-left">
+                  <div>
+                    <h3 class="sm-headline">Pelosi Condemns Trump Firing Official Who Refuted Fraud Claims</h3>
+                    <p>The president fired Christopher Krebs, director of the Cybersecurity and Infrastructure Security Agency, who rejected claims of election fraud.</p>
+                  </div>
+                </article>
+                <article class="d-flex">
+                  <img src="https://d.newsweek.com/en/full/1671787/republican-us-senate-candidate-kelly-loeffler.webp?w=95&h=95&f=4ff85f1b2bba0e08bb14fc280c855cbd" alt="Kelly Loeffler" class="img-left">
+                  <div>
+                    <h3 class="sm-headline">Loeffler Demands Warnock Apologize for Comments on God and the Military</h3>
+                    <p>Warnock will face Loeffler in January's runoff election in Georgia which could decide control of the Senate</p>
+                  </div>
+                </article>
+                <article class="d-flex">
+                  <img src="https://d.newsweek.com/en/full/1671701/maricopa-county.webp?w=95&h=95&f=7798672aa415504735725d3bc350c246" alt="Maricopa" class="img-left">
+                  <div>
+                    <h3 class="sm-headline">Maricopa County Election Chief Says Fraud Claims Are False</h3>
+                    <p>GOP congressmen had asked for a recount of all the ballots in the county that was key to Joe Biden's victory in Arizona.</p>
+                  </div>
+                </article>
+                <article class="d-flex">
+                  <img src="https://d.newsweek.com/en/full/1671383/democratic-senator-chris-coons.webp?w=95&h=95&f=7adb39c49f4b80e0f4adf69409a7c471" alt="Delaware senator" class="img-left">
+                  <div>
+                    <h3 class="sm-headline">Potential Biden Sec. of State Called for Troops to Stay in Afghan., Syria</h3>
+                    <p>The Delaware senator said he was "gravely concerned" about an "abrupt" withdrawal from the countries at a think tank event in 2019.</p>
+                  </div>
+                </article>
+                <article class="d-flex">
+                  <img src="https://d.newsweek.com/en/full/1671745/covid-test-la.webp?w=95&h=95&f=f8ce5ca222d8aa310b577057a7dba109" alt="Testing site sign" class="img-left">
+                  <div>
+                    <h3 class="sm-headline">GOP Lawmaker Encourages Thanksgiving Gatherings Despite COVID Rules</h3>
+                    <p>Mark Baisely wrote to his constituents that they had a "constitutionally guaranteed right" to meet their families over Thanksgiving, effectively urging them to ignore coronavirus restrictions.</p>
+                  </div>
+                </article>
+                <article class="d-flex">
+                  <img src="https://d.newsweek.com/en/full/1671776/pla-army-type-56-tank.webp?w=95&h=95&f=bd79151dda1490ef38ec32cd919ed4da" alt="Army tank" class="img-left">
+                  <div>
+                    <h3 class="sm-headline">China's Army Steps Up War Prep With Civilian Mobilization Exercise</h3>
+                    <p>The People's Liberation Army mobilized workers in automobile factories to modify semi trucks into battle tank transport vehicles during the recent military-civilian exercise.</p>
+                  </div>
+                </article>
+              </section>
+            </div>
+          </div>
+          <div class="right-col col-lg-3">
+            <section>
+              <h2>THE DEBATE</h2>
+              <article class="d-flex">
+                <img src="https://d.newsweek.com/en/full/1643342/terry-schilling.png?w=63&h=63&f=68fc2bca63df1fe25f0f2a32aad07f7a" alt="Terry Schilling">
+                <div>
+                  <h3>Science Says Porn Is a Huge Problem. Lawmakers Must Stop Ignoring It</h3>
+                  <p>BY TERRY SCHILLING</p>
+                </div>
+              </article>
+              <p>VS</p>
+              <article class="d-flex">
+                <img src="https://d.newsweek.com/en/full/1670715/brandi-love.png?w=63&h=63&f=4ccee9880aee400defccc4bf2265a6d0" alt="Brandi Love">
+                <div>
+                  <h3>Banning Porn Is a Bad Idea. There Are Other Ways To Improve the Internet</h3>
+                  <p>BY BRANDI LOVE</p>
+                </div>
+              </article>
+            </section>
+            <section>
+              <h2>OPINION</h2>
+              <article class="d-flex">
+                <img src="https://d.newsweek.com/en/full/1671800/mai-tuyet-pho-jesper-ke-andrea-c.webp?w=63&h=63&f=86f50c33b3b04a574015a8d9f983ca84" alt="Article authors">
+                <div>
+                  <h3>How We Get the Holidays Back</h3>
+                  <p>BY MAI TUYET PHO, JESPER KE AND ANDREA CIARANELLO</p>
+                </div>
+              </article>
+              <article class="d-flex">
+                <img src="https://d.newsweek.com/en/full/83499/newt-gingrich.webp?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77" alt="Article author">
+                <div>
+                  <h3>Americans Must Have Honest Elections</h3>
+                  <p>BY NEWT GINGRICH</p>
+                </div>
+              </article>
+              <article class="d-flex">
+                <img src="https://d.newsweek.com/en/full/1632715/tomas-j-philipson.webp?w=63&h=63&f=71dea295bb700473c8e0e8306aab20dd" alt="Article author">
+                <div>
+                  <h3>How Much Does it Cost to Help Stranded Workers?</h3>
+                  <p>BY TOMAS J. PHILIPSON</p>
+                </div>
+              </article>
+              <article class="d-flex">
+                <img src="https://d.newsweek.com/en/full/1671583/depetris-new.webp?w=63&h=63&f=6f134a6e9d2cd376c8ae9fd558a630d6" alt="Article author">
+                <div>
+                  <h3>Trump's Afghanistan Withdrawal Isn't Rushed, It's Long Overdue</h3>
+                  <p>BY DANIEL R. DEPETRIS</p>
+                </div>
+              </article>
+              <article class="d-flex">
+                <img src="https://d.newsweek.com/en/full/1588745/jonathan-schanzer.webp?w=63&h=63&f=cbf91a48486880d102f4cd18899ccaf5" alt="Article author">
+                <div>
+                  <h3>How to Build Upon Recent Progress in the Middle East</h3>
+                  <p>BY JONATHAN SCHANZER</p>
+                </div>
+              </article>
+              <article class="d-flex">
+                <img src="https://d.newsweek.com/en/full/1671468/christine-ahn-yifat-susskind-cindy-wiesner.webp?w=63&h=63&f=ea07ff6fd1f9a9a678ad85c453618320" alt="Article authors">
+                <div>
+                  <h3>Women of Color Should Be the Ones Remaking U.S. Foreign Policy</h3>
+                  <p>BY CHRISTINE AHN, YIFAT SUSSKIND AND CINDY WIESNER</p>
+                </div>
+              </article>
+            </section>
+            <section>
+              <article class="card">
+                <div class="text-on-img position-relative">
+                  <img src="https://d.newsweek.com/en/full/1669716/centre-negoci-facana-sjd.jpg?w=500&h=333&f=1c0c73cab876d25d8b3b425190620c98" alt="Mountains" class="card-img-top" >
+                  <p class="position-absolute">SPONSORED INSIGHT</p>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Andbank Group - Wealth Meets Innovation</h3>
+                  <p class="card-text">Based in Andorra, Andbank Group is a truly international conglomerate: it holds five banking licenses and has a presence in 12 countries, with 39 offices spread around the world, from Miami to Monaco to Zurich.</p>
+                </div>
+              </article>
+              <article class="card">
+                <div class="text-on-img position-relative">
+                  <img src="https://d.newsweek.com/en/full/1671053/nnovate2.jpg?w=500&h=333&f=7c0fd52aaf6156db616eed42842988db" alt="NNOVATE logo" class="card-img-top" >
+                  <p class="position-absolute">SPONSORED INSIGHT</p>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Berlin Partners Power NNOVATE</h3>
+                  <p class="card-text">See the latest in AI and tech sponsored by Berlin Partners. Artificial Intelligence is becoming really big in Berlin. A survey of the German AI startup landscape shows that today there are almost as many AI startups in Berlin as in the rest of Germany combined. Don't miss the new section.</p>
+                </div>
+              </article>
+              <article class="card">
+                <div class="text-on-img position-relative">
+                  <img src="https://d.newsweek.com/en/full/1649401/campbell-university.jpg?w=500&h=333&f=2b4921bb246488d9f47c766357918503" alt="Cityscape" class="card-img-top" >
+                  <p class="position-absolute">SPONSORED INSIGHT</p>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Why are these careers so highly sought after?</h3>
+                  <p class="card-text">These are some of the most highly rated careers areas today. How do you get started in them?</p>
+                </div>
+              </article>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  </body>
+</html>

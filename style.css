@@ -1,0 +1,151 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f4f5f6;
+}
+
+img {
+  width: 100%;
+}
+
+.full-container {
+  margin: auto;
+  max-width: 1310px;
+  background-color: var(--white);
+}
+
+.top-header {
+  background-color: #f72210;
+}
+
+.location {
+  font-size: 15px;
+}
+
+.logo {
+  fill: var(--white);
+}
+
+@media screen and (min-width: 1024px) {
+  nav::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 66px;
+    background-color: #f72210;
+    border-left: 12px solid var(--white);
+    border-top: 13px solid #f72210;
+  }
+}
+
+.top-nav {
+  margin-bottom: 0;
+}
+
+.top-nav .nav-item {
+  flex-grow: 1;
+  text-align: center;
+  border-left: 1px solid #d9d9d9;
+}
+
+.top-nav .nav-link {
+  padding: 0;
+  color: #000;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.top-nav li:first-of-type,
+.top-nav li:last-of-type {
+  border: none;
+}
+
+.btm-nav {
+  font-weight: 700;
+  border-top: 1px solid #f4f5f6;
+  border-bottom: 1px solid #f4f5f6;
+}
+
+.btm-nav .nav-link {
+  padding: 8px 10px;
+  color: #807f84;
+}
+
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h2 {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: inherit;
+}
+
+h3 {
+  margin-top: 3px;
+  font-size: 17px;
+}
+
+article {
+  margin: 15px 0;
+}
+
+.left-col .lg-headline,
+.right-col .card-title {
+  font-size: 24px;
+}
+
+.left-col p,
+.mid-col p,
+.right-col .card-text {
+  font-size: 15px;
+}
+
+.left-col .sm-headline {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.text-on-img p,
+.card-img-overlay  {
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  margin-bottom: 0;
+  padding: 5px;
+  color: #3581f4;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.mid-col .lg-headline {
+  font-size: 22px;
+}
+
+.gray-headline {
+  margin-top: 10px;
+  color: rgba(3, 3, 3, 0.5);
+  font-size: 16px;
+}
+
+.mid-col .d-flex {
+  padding-top: 15px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.img-left {
+  height: 95px;
+  width: 95px;
+  margin-right: 7px;
+}
+
+.right-col p {
+  font-size: 14px;
+}
+
+.right-col .d-flex img {
+  height: 63px;
+  width: 63px;
+  margin-right: 7px;
+}
